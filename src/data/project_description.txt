@@ -1,0 +1,17 @@
+Müzik eğitimi için bir mobil uygulama geliştirmek istiyorum. Bu uygulama, müzik teorisi öğrenmek isteyen, enstrüman çalmaya yeni başlayan ve müzikal becerilerini geliştirmek isteyen kullanıcılara hizmet edecek.
+
+Uygulamada şu özellikler olmalı:
+1. Kişiselleştirilmiş eğitim planları (farklı seviyeler ve enstrümanlar için)
+2. İnteraktif müzik teorisi dersleri (nota okuma, akor yapıları, vb.)
+3. Enstrüman eğitim videoları ve adım adım rehberler
+4. Kullanıcının performansını mikrofon ile dinleyip geribildirim verebilme
+5. Günlük/haftalık pratik hedefleri ve ilerleme takibi
+6. Kullanıcıların birbirleriyle iletişim kurabilecekleri bir topluluk alanı
+7. Online müzik öğretmenleri ile ücretli özel dersler alabilme
+8. Gamification elementleri (rozetler, seviyeler, meydan okumalar)
+
+Uygulama hem iOS hem de Android platformlarında çalışmalı ve internete erişimi olmadığında da temel işlevleri kullanabilmelidir. Ayrıca kullanıcı deneyiminin sezgisel olması ve müzik öğrenimini eğlenceli hale getirmesi çok önemli.
+
+Bütçemiz orta-yüksek seviyede ve yaklaşık 9-12 aylık bir geliştirme süreci öngörüyoruz. Hedef kitlemiz 15-65 yaş arası, müziğe ilgi duyan ancak formal eğitim alamayan veya online öğrenmeyi tercih eden kişilerdir.
+
+Bu projeyi detaylı bir şekilde planlamak istiyorum. 
