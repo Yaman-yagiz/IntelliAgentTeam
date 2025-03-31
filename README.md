@@ -55,7 +55,7 @@ This project is a system that uses artificial intelligence technologies to help 
 │   ├── agents/                  # Agent modules
 │   │   ├── __init__.py          
 │   │   └── agents.py            
-│   ├── core/                    # Core moduls
+│   ├── core/                    # Core modules
 │   │   ├── __init__.py          
 │   │   └── config.py            
 │   ├── data/                    # Data and content
