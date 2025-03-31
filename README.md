@@ -1,72 +1,72 @@
-# AI Tabanlı Proje Planlama Sistemi
+# IntelliAgentTeam: AI-Powered Project Planning System
 
-Bu proje, yapay zeka teknolojilerini kullanarak kapsamlı proje planları oluşturmaya yardımcı olan, çoklu uzman yaklaşımı kullanılan bir sistemdir.
+This project is a system that uses artificial intelligence technologies to help create comprehensive project plans, utilizing a multi-expert approach.
 
-## Özellikler
+## Features
 
-- **Çoklu Uzman Yaklaşımı**: Farklı rollerde (Proje Yöneticisi, UX Tasarımcısı, Yazılım Mimarı, Ekip Lideri) AI ajanları kullanarak kapsamlı analiz sağlar.
-- **Uzmanlar Arası Etkileşim**: Uzman AI ajanlar arasında sıralı bilgi akışı ile gerçek bir tartışma ortamı simüle edilir.
-- **Kapsamlı Analiz**: Her uzman kendi alanında detaylı analizler yaparak projenin farklı yönlerini ele alır.
-- **Terminal Çıktısı**: Tüm uzman görüşleri ve analizler konsolda anlaşılır şekilde sunulur.
-- **Modüler Mimari**: Kolayca genişletilebilir ve yeni özellikler eklenebilir mimari yapı.
+- **Multi-Expert Approach**: Provides comprehensive analysis using AI agents in different roles (Project Manager, UX Designer, Software Architect, Team Leader).
+- **Expert Interaction**: Simulates a real discussion environment with sequential information flow between expert AI agents.
+- **Comprehensive Analysis**: Each expert conducts detailed analyses in their field, addressing different aspects of the project.
+- **Terminal Output**: All expert opinions and analyses are presented clearly in the console.
+- **Modular Architecture**: Easily extensible structure that allows new features to be added.
 
-## Gereksinimler
+## Requirements
 
-- Python 3.8 veya üstü
-- Gemini API anahtarı (Google AI Studio)
+- Python 3.8 or higher
+- Gemini API key (Google AI Studio)
 
-## Kurulum
+## Installation
 
-1. Repoyu klonlayın:
+1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ai-project-planner.git
-   cd ai-project-planner
+   git clone https://github.com/Yaman-yagiz/IntelliAgentTeam.git
+   cd IntelliAgentTeam
    ```
 
-2. Gerekli paketleri yükleyin:
+2. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
 
-3. Gemini API anahtarınızı ayarlayın:
+3. Set up your Gemini API key:
    ```
-   # .env dosyasına API anahtarınızı ekleyin
-   GEMINI_API_KEY=sizin_api_anahtarınız
+   # Add your API key to the .env file
+   GEMINI_API_KEY=your_api_key
    ```
 
-## Kullanım
+## Usage
 
-1. Proje açıklamanızı `src/data/project_description.txt` dosyasına ekleyin.
+1. Add your project description to the `src/data/project_description.txt` file.
 
-2. Programı çalıştırın:
+2. Run the program:
    ```
    python main.py
    ```
 
-3. Analiz sonuçları terminal ekranında gösterilecektir.
+3. Analysis results will be displayed in the terminal.
 
-## Proje Yapısı
+## Project Structure
 
 ```
-├── main.py                      # Ana program
-├── requirements.txt             # Bağımlılıklar
-├── .env                         # Çevre değişkenleri
-├── src/                         # Kaynak kod
-│   ├── agents/                  # Ajan modülleri
-│   │   ├── __init__.py          # Ajan paketi tanımı
-│   │   └── agents.py            # Ajan sınıfları ve fonksiyonları
-│   ├── core/                    # Çekirdek modüller
-│   │   ├── __init__.py          # Çekirdek paket tanımı
-│   │   └── config.py            # Yapılandırma ayarları
-│   ├── data/                    # Veri ve içerik
-│   │   ├── __init__.py          # Veri paketi tanımı
-│   │   ├── project_description.txt  # Proje açıklaması
-│   │   └── instructions/        # Ajan talimatları
-│   └── utils/                   # Yardımcı modüller
-│       ├── __init__.py          # Yardımcı paket tanımı
-│       └── helpers.py           # Yardımcı fonksiyonlar
+├── main.py                      # Main program
+├── requirements.txt             # Dependencies
+├── .env                         # Environmental variables
+├── src/                         # Source code
+│   ├── agents/                  # Agent modules
+│   │   ├── __init__.py          
+│   │   └── agents.py            
+│   ├── core/                    # Core moduls
+│   │   ├── __init__.py          
+│   │   └── config.py            
+│   ├── data/                    # Data and content
+│   │   ├── __init__.py          
+│   │   ├── project_description.txt  # Project description
+│   │   └── instructions/        # Agent instructions
+│   └── utils/                   # Helper modules
+│       ├── __init__.py          
+│       └── helpers.py           
 ```
 
-## Lisans
+## License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın. 
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
