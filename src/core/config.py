@@ -15,7 +15,7 @@ PROJECT_DESCRIPTION_FILE = "project_description.txt"
 PROJECT_DESC_PATH = SRC_DIR / "data" / PROJECT_DESCRIPTION_FILE
 
 # Gemini yapılandırmaları
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCUF2zKSXchNkr7Rw5fdJEceaOqjeAf5Bg")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 
 def setup_environment():
